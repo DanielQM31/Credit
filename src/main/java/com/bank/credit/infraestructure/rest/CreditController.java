@@ -41,4 +41,9 @@ public class CreditController {
         return creditOperations.delete(id);
     }
 
+    @GetMapping("/message")
+    public String message() {
+        return "Se desplegó con écxito el microservicio en Azure!";
+    }
+
 }
