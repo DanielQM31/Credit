@@ -4,6 +4,6 @@ spring:
   cloud:
     config:
       enable: false
-      uri: http://localhost:8010
+      uri: http://configservers.azurewebsites.net/
       username: user
       password: root
