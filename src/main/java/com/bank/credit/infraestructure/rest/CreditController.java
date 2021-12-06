@@ -43,7 +43,7 @@ public class CreditController {
 
     @GetMapping("/message")
     public String message() {
-        return "Se desplegó con écxito el microservicio en Azure!";
+        return "Se desplegó con éxito el microservicio en Azure!";
     }
 
 }
